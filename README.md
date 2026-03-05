@@ -36,6 +36,10 @@
 ```bash
 latexmk -xelatex manuscript.tex
 ```
+若需开启**实时预览**（保存时自动重新编译），可以使用 `-pvc` 选项：
+```bash
+latexmk -xelatex -pvc manuscript.tex
+```
 
 #### 使用 Makefile
 如果安装了 `make` 工具和 `tectonic`，可以直接运行：
