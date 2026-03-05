@@ -1,0 +1,21 @@
+[doc]
+name = "graduation_dissertation"
+bundle = "https://data1.fullyjustified.net/tlextras-2022.0r0.tar"
+
+[[output]]
+name = "manuscript"
+type = "pdf"
+index = "src/manuscript/index.tex"
+shell_escape = true
+
+[[output]]
+name = "spine"
+type = "pdf"
+index = "src/spine/index.tex"
+shell_escape = true
+
+[[output]]
+name = "test_md"
+type = "pdf"
+index = "src/test_md.tex"
+shell_escape = true
